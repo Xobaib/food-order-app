@@ -4,7 +4,7 @@ import styles from "./HeaderCartButton.module.css";
 
 const HeaderCardButton = (props) => {
   return (
-    <button className={styles.button}>
+    <button className={styles.button} onClick={props.onShowCart}>
       <span className={styles.icon}>
         <CartIcon />
       </span>

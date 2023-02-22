@@ -7,7 +7,6 @@ const HeaderCardButton = (props) => {
   const [btnIsHighlighted, setBtnIsHighlighted] = useState(false);
 
   const cartCtx = useContext(CartContext);
-  console.log(cartCtx);
 
   const { items } = cartCtx;
 
